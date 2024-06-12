@@ -25,6 +25,10 @@
 #include "CDAccess_CHD.h"
 #endif
 
+#ifdef _WIN32
+#define strcasecmp _stricmp
+#endif
+
 CDAccess::CDAccess()
 {
 

@@ -13,6 +13,10 @@
 #include "mednafen/ss/cdb.h"
 #include "mednafen/ss/smpc.h"
 
+#ifdef _MSC_VER
+#include <compat/msvc.h>
+#endif
+
 extern "C"{
 RFILE* rfopen(const char *path, const char *mode);
 char *rfgets(char *buffer, int maxCount, RFILE* stream);
