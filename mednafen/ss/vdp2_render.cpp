@@ -35,6 +35,7 @@
 #include <array>
 #include <atomic>
 #include <algorithm>
+#include "settings.h"
 
 //uint8 vdp2rend_prepad_bss
 

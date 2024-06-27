@@ -98,7 +98,7 @@ static INLINE SFORMAT SFBASE_(IT* const iv, uint32 icount, const uint32 totalcou
 {
  typedef typename std::remove_all_extents<IT>::type T;
  uint32 count = icount * (sizeof(IT) / sizeof(T));
- SF_FORCE_ANY<T>();
+ //SF_FORCE_ANY<T>();
  //
  //
  SFORMAT ret;

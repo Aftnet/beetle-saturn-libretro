@@ -1,6 +1,10 @@
 #ifndef __LIBRETRO_SETTINGS_HDR__
 #define __LIBRETRO_SETTINGS_HDR__
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 enum
 {
 	SETTING_GUN_CROSSHAIR_OFF,
@@ -31,5 +35,9 @@ extern bool setting_multitap_port1;
 extern bool setting_multitap_port2;
 extern bool opposite_directions;
 extern bool setting_midsync;
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif
